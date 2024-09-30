@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reward Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Reward Portal</h1>
+        </header>
+        <main>
+            <div class="stats">
+                <div class="stat">
+                    <h2 id="totalComplaints">Total Waste Complaints Raised: 0</h2>
+                </div>
+                <div class="stat">
+                    <h2 id="rewardEarned">Reward Earned: 0</h2>
+                </div>
+                <div class="stat">
+                    <h2 id="rewardRedeemed">Reward Redeemed: 0</h2>
+                </div>
+                <div class="stat">
+                    <h2 id="balanceAvailable">Balance Available: 0</h2>
+                </div>
+            </div>
+            <form id="rewardForm">
+                <input type="email" id="email" placeholder="Enter your Email ID" required>
+                <button type="submit">Claim Reward</button>
+            </form>
+            <div id="message"></div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Reward Portal</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
